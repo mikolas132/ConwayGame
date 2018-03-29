@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="conway.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="printMatriz(board);">
+
+<h1>Conway's game</h1>
+<div id="grid"></div>
+<br>
+
+<button type="button" onclick="calculateNextGeneration()">next generation</button> 
+<br>
+<br>
+<input id="nGenerations" type="number" name="nGenerations" value="0">
+<button type="button" onclick="advanceNGenerations()">Advance N Generations</button> 
+<br>
+<br>
+Delay:<input id="delay" type="number" name="nGenerations" >
+<br>
+<br>
+<button type="button" onclick="calculateNextGeneration()">start</button> 
+<button type="button" onclick="calculateNextGeneration()">stop</button> 
+
+
+</body>
+</html> 
